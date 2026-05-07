@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+langchain
+langgraph
+langsmith
+google-genai
+neo4j
+langchain-community
