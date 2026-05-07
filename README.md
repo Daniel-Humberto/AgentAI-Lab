@@ -301,17 +301,6 @@ en el backend y en los flujos de automatización según el caso de uso.
 ---
 
 
-<p align="center">
-  <img src="Imagenes/1.png"
-       alt="Arquitectura del sistema"
-       width="900"
-       style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0px 8px 24px rgba(37, 99, 235, 0.18);">
-</p>
-
-
----
-
-
 ## Observabilidad MLOps
 
 El stack de observabilidad está compuesto por Prometheus, Grafana y exporters
@@ -332,6 +321,28 @@ activarse cuando el host exponga correctamente las métricas GPU.
 
 Grafana se provisiona con dashboards y datasource de Prometheus desde los
 directorios `grafana/provisioning` y `grafana/dashboards`.
+
+
+---
+
+
+<p align="center">
+  <img src="Imagenes/1.png"
+       alt="Arquitectura del sistema"
+       width="900"
+       style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0px 8px 24px rgba(37, 99, 235, 0.18);">
+</p>
+
+
+---
+
+
+<p align="center">
+  <img src="Imagenes/2.png"
+       alt="Arquitectura del sistema"
+       width="900"
+       style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0px 8px 24px rgba(37, 99, 235, 0.18);">
+</p>
 
 
 ---
