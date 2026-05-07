@@ -301,6 +301,17 @@ en el backend y en los flujos de automatización según el caso de uso.
 ---
 
 
+<p align="center">
+  <img src="Imagenes/1.png"
+       alt="Arquitectura del sistema"
+       width="900"
+       style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0px 8px 24px rgba(37, 99, 235, 0.18);">
+</p>
+
+
+---
+
+
 ## Observabilidad MLOps
 
 El stack de observabilidad está compuesto por Prometheus, Grafana y exporters
@@ -440,26 +451,6 @@ docker exec -it ollama ollama list
 Docker Compose puede mostrar un aviso indicando que el atributo `version` en
 `docker-compose.yml` es obsoleto. El stack puede seguir funcionando; se recomienda
 retirarlo en una limpieza futura para evitar confusión.
-
-
----
-
-
-## Madurez Técnica Y Próximos Incrementos
-
-Prioridades recomendadas para convertir la base actual en una plataforma
-agentica más completa:
-
-1. Implementar una UI real del portal Next.js orientada a operación del laboratorio.
-2. Añadir runtime/API route real de CopilotKit para habilitar A2UI funcional.
-3. Sustituir `mcp-manufact` por un servidor MCP funcional.
-4. Integrar Qdrant en un flujo RAG real desde `python-ai-core`.
-5. Persistir conversaciones, trazas o memoria en PostgreSQL, Redis y/o Neo4j.
-6. Conectar el backend con Ollama para inferencia local desde el grafo.
-7. Activar scrape de `dcgm-exporter` en Prometheus cuando la GPU exponga métricas.
-8. Añadir pruebas automatizadas para backend, frontend y salud de servicios.
-9. Remover `version` de `docker-compose.yml` en una limpieza de Compose.
-10. Definir perfiles de despliegue para demo, desarrollo y operación interna.
 
 
 ---
