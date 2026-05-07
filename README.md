@@ -1,4 +1,4 @@
-# Laboratorio de Investigación y Desarrollo de Agentes de IA V3
+# Laboratorio de Investigación y Desarrollo de Agentes de IA
 
 
 ---
